@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpScriptSolutions\ModelGenerator
+namespace PhpScriptSolutions\ModelGenerator;
 
 use Illuminate\Support\ServiceProvider;
 
