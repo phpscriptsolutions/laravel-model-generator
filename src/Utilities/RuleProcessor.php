@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpScriptSolutions\Generator\Utilities;
+namespace PhpScriptSolutions\ModelGenerator\Utilities;
 
-use PhpScriptSolutions\Generator\Exceptions\InvalidRuleException;
+use PhpScriptSolutions\ModelGenerator\Exceptions\InvalidRuleException;
 
 /**
  * Class RuleProcessor.

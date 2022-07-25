@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpScriptSolutions\Generator;
+namespace PhpScriptSolutions\ModelGenerator;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -19,7 +19,7 @@ class ModelGeneratorServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('command.make.models', function ($app) {
-            return $app['PhpScriptSolutions\Generator\Commands\MakeModelsCommand'];
+            return $app['PhpScriptSolutions\ModelGenerator\Commands\MakeModelsCommand'];
         });
 
         $this->commands('command.make.models');

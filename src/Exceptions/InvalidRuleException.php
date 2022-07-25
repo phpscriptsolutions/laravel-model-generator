@@ -1,5 +1,5 @@
 <?php
-namespace PhpScriptSolutions\Generator\Exceptions;
+namespace PhpScriptSolutions\ModelGenerator\Exceptions;
 
 /**
  * Class InvalidRuleException.

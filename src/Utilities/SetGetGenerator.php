@@ -1,5 +1,5 @@
 <?php
-namespace PhpScriptSolutions\Generator\Utilities;
+namespace PhpScriptSolutions\ModelGenerator\Utilities;
 
 use \Illuminate\Filesystem\Filesystem;
 

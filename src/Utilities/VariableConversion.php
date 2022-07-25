@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpScriptSolutions\Generator\Utilities {
+namespace PhpScriptSolutions\ModelGenerator\Utilities {
 
     /**
      * Class VariableConversion.

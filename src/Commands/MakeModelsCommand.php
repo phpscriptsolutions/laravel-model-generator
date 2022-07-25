@@ -1,14 +1,14 @@
 <?php
 
-namespace PhpScriptSolutions\Generator\Commands;
+namespace PhpScriptSolutions\ModelGenerator\Commands;
 
 use Illuminate\Database\Connection;
 use Illuminate\Database\Events\StatementPrepared;
 use Illuminate\Support\Pluralizer;
 use Illuminate\Console\GeneratorCommand;
-use PhpScriptSolutions\Generator\Utilities\RuleProcessor;
-use PhpScriptSolutions\Generator\Utilities\SetGetGenerator;
-use PhpScriptSolutions\Generator\Utilities\VariableConversion;
+use PhpScriptSolutions\ModelGenerator\Utilities\RuleProcessor;
+use PhpScriptSolutions\ModelGenerator\Utilities\SetGetGenerator;
+use PhpScriptSolutions\ModelGenerator\Utilities\VariableConversion;
 use Symfony\Component\Console\Input\InputOption;
 
 class MakeModelsCommand extends GeneratorCommand
