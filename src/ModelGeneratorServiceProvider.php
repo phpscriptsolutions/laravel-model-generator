@@ -4,7 +4,7 @@ namespace PhpScriptSolutions\Generator;
 
 use Illuminate\Support\ServiceProvider;
 
-class ModelGeneratorProvider extends ServiceProvider
+class ModelGeneratorServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
