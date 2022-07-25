@@ -28,10 +28,15 @@
       "PhpScripSolutions\\ModelGenerator\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "PhpScripSolutions\\ModelGenerator\\": "src/"
+    }
+  },
   "extra": {
     "laravel": {
       "providers": [
-        "PhpScripSolutions\\ModelGenerator\\ModelGeneratorServiceProvider"
+        "PhpScriptSolutions\\ModelGenerator\\ModelGeneratorServiceProvider"
       ]
     }
   },
