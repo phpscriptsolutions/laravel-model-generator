@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpScriptSolutions\ModelGenerator;
+namespace PhpScriptSolutions\Generator;
 
 use Illuminate\Support\ServiceProvider;
 
-class ModelGeneratorServiceProvider extends ServiceProvider
+class ModelGeneratorProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
