@@ -25,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "PhpScripSolutions\\ModelGenerator\\": "src"
+      "PhpScripSolutions\\ModelGenerator\\": "src/"
     }
   },
   "extra": {
